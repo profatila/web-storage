@@ -1,0 +1,28 @@
+.painel-container {
+  background-color: var(--card-bg);
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 50vw;
+}
+
+.painel-container h2 {
+  margin-bottom: 20px;
+}
+
+.grupo-input {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.grupo-input input,
+.grupo-input select {
+  padding: 10px;
+  border: 1px solid var(--input-border);
+  border-radius: 4px;
+  background-color: transparent;
+  color: var(--text-color);
+  font-size: 1rem;
+}
